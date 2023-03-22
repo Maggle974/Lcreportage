@@ -21,7 +21,7 @@ class PicturesController < ApplicationController
 
   # POST /pictures or /pictures.json
   def create
-    @picture = Picture.new(picture_params)
+    @picture = Picture.new(event_id: 1)
 
     respond_to do |format|
       if @picture.save
