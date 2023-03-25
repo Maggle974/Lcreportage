@@ -1,11 +1,13 @@
 a {
+  font-size: x-large;
   text-decoration: none;
   width: fit-content;
   display: flex;
-  color: black;
+  color: white;
 
   &:hover{
   text-decoration: none;
-  color: red;
+  color: white;
+  font-weight: bolder;
 }
 }

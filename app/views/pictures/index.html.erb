@@ -1,6 +1,6 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Photos</h1>
+<div class="picture-title text center" ><h1>Photos</h1>
 
 <div id="pictures">
   <% @pictures.each do |picture| %>
@@ -9,6 +9,7 @@
       <%= link_to "Show this picture", picture %>
     </p>
   <% end %>
+</div>
 </div>
 
 <%= link_to "Nouvelles photos", new_picture_path %>
