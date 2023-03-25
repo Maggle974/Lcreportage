@@ -1,10 +1,11 @@
-<h1>Editing picture</h1>
+<div class="container m-3"><h1>Editing picture</h1>
 
 <%= render "form", picture: @picture %>
 
 <br>
 
-<div>
-  <%= link_to "Show this picture", @picture %> |
-  <%= link_to "Retour aux photos", pictures_path %>
+  <div>
+    <%= link_to "Show this picture", @picture %> |
+    <%= link_to "Retour aux photos", pictures_path %>
+  </div>
 </div>
